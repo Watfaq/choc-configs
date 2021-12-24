@@ -1,0 +1,7 @@
+---
+port: 8888
+socks-port: 8889
+mixed-port: 8899
+mode: rule
+log-level: error
+external-controller: 127.0.0.1:9090
