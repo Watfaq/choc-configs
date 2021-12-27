@@ -1,3 +1,5 @@
+### subscription-url {{ request.url }}
+
 ---
 port: 8888
 socks-port: 8889
