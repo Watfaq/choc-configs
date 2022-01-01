@@ -9,10 +9,10 @@ mitm:
     passphase: ""
     certificate: ""
 rewrite:
-- regex: ^https?:\/\/www.?jd\.com\/(.*)
+- regex: ^https?://www.google.cn/(.*)
   match: url
   action: "302"
-  target: https://www.jd.com/$1  # redirect with params
+  target: https://www.google.com/$1  # redirect with params
 - regex: ^http://www.google.cn
   match: url
   action: "header"  # rewrite request header Host
